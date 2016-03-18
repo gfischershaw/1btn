@@ -1,4 +1,4 @@
-[# 1btn](www.1btn.space)
+# [1btn](www.1btn.space)
 
 1btn (one button) uses the internet to complete a task with the simple, satisfying click of a single button. It connects to the internet over Wi-Fi to trigger whatever action you have assigned to it using a simple, online interface. One click, one task. It’s that simple.
 
@@ -15,5 +15,5 @@ Unlike many other “Internet of Things” devices, 1btn does not maintain a con
 - Weight: approx. 50 grams
 - Color: white case bottom with multiple color options for the top (red, pink, blue, yellow, white, and green)
 
-# License
+## License
 See the [LICENSE] (https://github.com/anandtamboli/1btn/blob/master/LICENSE) file
