@@ -1,0 +1,2 @@
+# 1btn
+1btn (one button) uses the internet to complete a task with the simple, satisfying click of a single button. It connects to the internet over Wi-Fi to trigger whatever action you have assigned to it using a simple, online interface. One click, one task. It’s that simple.  Unlike many other “Internet of Things” devices, 1btn does not maintain a continuous connection to the internet. Instead, it sleeps until it is pressed, then it connects to the internet, performs the assigned task, tells you the outcome via its multi-colored LEDs, and then returns to rest.
