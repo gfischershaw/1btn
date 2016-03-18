@@ -16,8 +16,5 @@ We think there’s a better way, a tried-and-true, more intuitive way, to activa
 - Weight: approx. 50 grams
 - Color: white case bottom with multiple color options for the top (red, pink, blue, yellow, white, and green)
 
-## Grab your 1btn today
-By from [CrowdSupply] (https://www.crowdsupply.com/knewron/1btn/crowdfunding)
-
 ## License
 See the [LICENSE] (https://github.com/anandtamboli/1btn/blob/master/LICENSE) file
