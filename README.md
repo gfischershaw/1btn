@@ -14,3 +14,6 @@ Unlike many other “Internet of Things” devices, 1btn does not maintain a con
 - Built-in wifi module: ESP8266 - ESP-12F
 - Weight: approx. 50 grams
 - Color: white case bottom with multiple color options for the top (red, pink, blue, yellow, white, and green)
+
+# License
+See the [LICENSE] (https://github.com/anandtamboli/1btn/blob/master/LICENSE) file
