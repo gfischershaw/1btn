@@ -8,8 +8,6 @@ As the Internet of Things has expanded, we’ve noticed an unfortunate trend: th
 
 We think there’s a better way, a tried-and-true, more intuitive way, to activate a single task or function, and that’s with a button. Why are buttons such a great idea? A button is the simplest user interface for a single-repetitive-programmable task. They are simple exactly because they are designed for a single-task. More importantly, buttons are easy-to-understand, they are familiar, intuitive, and provide immediate, satisfying physical feedback when pushed.
 
-![vimeo](https://player.vimeo.com/video/159417287)
-
 ![inside view of 1btn](https://github.com/anandtamboli/1btn/blob/master/images/1btn_details_nolabels.jpg)
 
 **Specifications**
