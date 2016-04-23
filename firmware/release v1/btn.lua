@@ -1,3 +1,9 @@
+local pressDuration = ...
+
+if pressDuration == nil then
+     pressDuration = 1
+end
+
 btnTimer = 0;
 tempVar = 0;
 
@@ -22,6 +28,11 @@ function postResponse(nBytes)
 
      -- go back to deep sleep mode - indefinitely
      print("sleeping now");
+
+	-- set LED pins as input
+	gpio.mode(redLED, gpio.INPUT);
+	gpio.mode(greenLED, gpio.INPUT);
+	gpio.mode(blueLED, gpio.INPUT);
      node.dsleep(0);
 end
 
@@ -39,7 +50,8 @@ function sendEvent()
                "id="..btnID..
                "&b="..battV..
                "&w="..btnAP..
-               "&e=1&d=1";         
+               "&e=1"..
+               "&d="..pressDuration;         
 
 	pcall(assert(loadfile)("httpsend.lc"), "www.1btn.space", "80", postStr, postResponse);
 end
@@ -56,7 +68,7 @@ if battV < 3.0 then
      end);
 else
      -- start normal routine
-     setLED(YELLOW);
+     setLED(BLUE);
 
      -- 2 seconds delay
      tmr.alarm(btnTimer, 2000, 0, function()

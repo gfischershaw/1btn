@@ -1,0 +1,22 @@
+## CONNECTION
+- You can connect the 1btn using suitable serial terminal software with your PC / laptop. The device
+communicates at 9600 bps and the log can be see on terminal when in operation.
+- If you want to stop the button from initializing 1btn core functionality - you will get about 2 seconds
+when 1btn starts. This provision is made in init file which waits for 2 seconds before invoking the code.
+- To stop it from proceeding, stop timer # 0 quickly upon restarting of the 1btn and you will get easy
+access to the internal wifi module without entering into sleep mode.
+
+## FIRMWARE FILES
+- There are in total 7 files, out of which 6 are firmware files and one being HTML login page.
+1. btn.lua		main code
+2. config.lua		wifi configuration code
+3. httpsend.lua	http query sending code
+4. init.lua		the famous init.lua / initial file
+5. login.html		small web page to show wifi config screen
+6. make.lua		binary maker code, this will convert all the .lua files into .lc
+7. setup.lua		initial setup, called soon after init.lua to set I/Os and functions of 1btn
+
+## DOWNLOAD
+1. USB converter - CP2102 drivers : https://goo.gl/OgFIaZ
+2. ESPlorer v1 : http://goo.gl/YTEuGB
+3. Termite serial software : http://goo.gl/S84jMd
