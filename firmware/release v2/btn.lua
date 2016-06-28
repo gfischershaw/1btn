@@ -44,7 +44,7 @@ function postResponse(nBytes)
           else
 			-- if failure is due to reconfig request, blink in blue
 			if string.find(retVal, '"code":"1BTN_RECONFIG"') ~= nil then
-				-- blink MAGENTA 3 times
+				-- blink BLUE 3 times
 				blinkLED(BLUE, 3);
 				print("1btn reconfig requested");
 			else
